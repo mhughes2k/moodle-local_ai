@@ -3,6 +3,8 @@ import os
 import textract
 import pandas
 import vectorstore
+import langchain_community.embeddings
+import langchain_community.vectorstores
 import shutil
 
 def create_vector_store(vectorstorelocation,
@@ -21,11 +23,17 @@ def main():
     parser.add_argument('-v', '--vectorstorelocation', type=str, help='Location of the vectorstore.')
     parser.add_argument('-d', '--delete', action='store_true', help='Remove existing vectorstore.')
     args = parser.parse_args()
+    
+    # Validate Arguments
+    if (args.vectorstorelocation is None):
+        print("You must provide a --vectorstorelocation")
+        return
+
     vectorstorelocation=args.vectorstorelocation+"/"
     cache_folder = vectorstorelocation+"cache/"
     model_name = "sentence-transformers/all-MiniLM-L6-v2"
     store_type = "faiss"
-
+    
     if (args.delete):
         print("Deleting existing vector store at "+vectorstorelocation)
         try:

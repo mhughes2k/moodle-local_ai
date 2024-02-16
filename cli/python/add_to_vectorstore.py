@@ -6,8 +6,12 @@ import os
 import textract
 import pandas
 import vectorstore
-from langchain.embeddings import HuggingFaceInstructEmbeddings
-from langchain.vectorstores import FAISS
+from langchain_community.embeddings import HuggingFaceInstructEmbeddings
+import langchain_community.embeddings
+import langchain_community.vectorstores 
+from langchain_community.vectorstores import FAISS
+
+#from langchain.vectorstores import FAISS
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.docstore.document import Document
 import json
@@ -30,9 +34,13 @@ def main():
 
     print("Preparing document")
     document = prepare_document(documentpath, documentmetadata)
-    print(document)
+    # print(document)
 
-    embeddings = HuggingFaceInstructEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
+    embeddings = HuggingFaceInstructEmbeddings(
+                    cache_folder=cache_folder,
+                    model_name=model_name
+                )
+    print(embeddings.embed_query(document.page_content))
     try:
         vs = vectorstore.get(store_type, vectorstorelocation, cache_folder, model_name)
     except:
@@ -70,6 +78,7 @@ def prepare_document(documentpath, documentmetadata):
     # Parse metadata
     jsondata = json.loads(documentmetadata)
     print(jsondata)
+    jsondata["title"] = documentpath
 
     document = Document(
         page_content=page_content,

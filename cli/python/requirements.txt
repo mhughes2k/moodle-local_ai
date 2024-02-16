@@ -1,2 +1,7 @@
 faiss-cpu
 langchain
+langchain-community
+pandas
+pyarrow
+textract
+sentence-transformers==2.2.2

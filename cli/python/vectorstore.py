@@ -1,5 +1,6 @@
-from langchain.embeddings import HuggingFaceInstructEmbeddings
-from langchain.vectorstores import FAISS
+from langchain_community.embeddings import HuggingFaceInstructEmbeddings
+from langchain_community.vectorstores import FAISS
+
 # Get instance of VectorStore.
 def get(store_type, vectorstorelocation, cache_folder, model_name):
     if store_type == "faiss":
