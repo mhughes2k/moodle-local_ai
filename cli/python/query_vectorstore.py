@@ -14,16 +14,20 @@ from langchain_community.vectorstores import FAISS
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.docstore.document import Document
 
+DEFAULT_MODEL="sentence-transformers/all-MiniLM-L6-v2"
+DEFAULT_STORE="faiss"
 def main():
     parser = argparse.ArgumentParser(description='Add a document to the vectorstore.')
-    parser.add_argument('--vectorstorelocation', type=str, help='Location of the vectorstore.')
-    parser.add_argument('--query', type=str, help='Optional query')
+    parser.add_argument('--vectorstorelocation', type=str, help='Location of the vectorstore.',required=True)
+    parser.add_argument('--modelname', type=str,help='Model to use. Default: '+ DEFAULT_MODEL, default=DEFAULT_MODEL)
+    parser.add_argument('--storetype', type=str,help="Vector store type to use. Default: "+DEFAULT_STORE, default=DEFAULT_STORE)
+    parser.add_argument('--query', type=str, help='Optional query. If not provided will prompt for query.')
     args = parser.parse_args()
 
     vectorstorelocation=args.vectorstorelocation
     cache_folder = vectorstorelocation+"cache/"
-    model_name = "sentence-transformers/all-MiniLM-L6-v2"
-    store_type = "faiss"
+    model_name = args.modelname
+    store_type = args.storetype
     query = args.query
     print(query)
 
@@ -34,13 +38,12 @@ def main():
         print(f"unable to load vector store {vectorstorelocation}: {e} ")
         return
     # Vector Store was OK
-    if (query == ""):
+    if (query is None):
         query = input("Enter your query: ")
 
     # docs = vs.similarity_search(query)
     results = vs.similarity_search_with_score(query)
     for result in results:
-        # if ('metadata' in doc):
         doc = result[0];
         score = result[1]
         if 'title' in doc.metadata:
@@ -48,10 +51,6 @@ def main():
             print(f"Title {title} - {score}")
         else :
             print("No title")
-        # else:
-            # print("No metadata")
-            # print(doc)
-
 
 if __name__ == '__main__':
     main()

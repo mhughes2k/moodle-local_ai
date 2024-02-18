@@ -1,0 +1,6 @@
+intro
+Loading vectorstore from /var/www/moodledata/localai/test
+load INSTRUCTOR_Transformer
+max_seq_length  512
+Title demo/hello.txt - 0.7179157137870789
+Title demo/UCISA Higher Education Business Technology BT Maturity Assessment Report Edition 22023.pdf - 1.6222803592681885

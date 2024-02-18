@@ -27,6 +27,6 @@ defined('MOODLE_INTERNAL') || die;
 $plugin->version   = 2024011200;
 $plugin->release   = 2024011200;
 $plugin->maturity  = MATURITY_ALPHA;
-$plugin->requires  = 2023092000; // Requires 3.11.
+$plugin->requires  = 2023081800;
 $plugin->component = 'local_ai';
-$plugin->supported = [403, 403];
+#$plugin->supported = [403, 403];

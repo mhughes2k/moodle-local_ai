@@ -17,6 +17,7 @@ namespace local_ai\local;
 
 use core\stored_file;
 use local_ai\task\run_python_command;
+require_once($CFG->libdir. '/filelib.php');
 
 /**
  * AI Manager
@@ -39,6 +40,7 @@ class manager {
     public function initialise_store() {
         $exists = true;
         // Check if we have already created a data area for the vector store.
+        debugging("Checking for Vector store at {$this->data_dir}");
         if (!check_dir_exists($this->data_dir, false)) {
             debugging("Vector store data directory does not exist, creating it now.");
             $exists = check_dir_exists($this->data_dir, true, true);
@@ -91,5 +93,49 @@ class manager {
             mtrace("Would have executed: ".$cmd);
         }
         return $result;
+    }
+
+    public function chat($message) {
+        // We're going to use the OpenAI API format to get chat completions.
+
+        $baseurl = "http://host.docker.internal:11434/v1/"; // Ollama running locally just now, but will become a config setting or delegated to an AI provider class.
+        $apikey = "ollama"; // Temporary, needed for OpenAI but not ollama.
+        
+        $url = "{$baseurl}chat/completions" ;
+        $headers = [
+            'Content-Type' => "application/json"
+        ];
+
+        // TODO Perform RAG.
+        $data = [
+            'model' => "llama2",
+            'messages' => [
+                // These are arrays but since they're associative they'll be converted to JSON Objects.
+                [
+                    "role"=>"system",
+                    "content"=>"You are a helpful assistant"
+                ],
+                [
+                    "role" => "user",
+                    "content" => $message
+                ]
+            ]
+        ];
+        
+        $postdata = json_encode($data);
+        if (debugging()) {
+            echo "$url\n$postdata";
+        }
+        $result = \download_file_content(
+            $url,
+            $headers,
+            $postdata
+        );
+        $result = json_decode($result);
+        var_dump($result);
+        $responses = $result->choices;
+        foreach($responses as $response) {
+            echo $response->message->content ."\n";
+        }
     }
 }
