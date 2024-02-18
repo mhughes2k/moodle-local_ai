@@ -24,7 +24,7 @@ require_once($CFG->libdir. '/filelib.php');
  */
 class manager {
 
-    const DATA_DIR = '/ai';
+    const DATA_DIR = '/local_ai';
     //const PY_ADD_DOCUMENT = 'add_to_vectorstore.py vectorstorelocation={$vectorstorelocation} documentlocation={$documentpath} metadata="{$metadata}"';
     private $id = null;
     private $data_dir = null;
@@ -72,16 +72,18 @@ class manager {
     }
 
     public function generate_command($command, $parameters) {
-        $cmd = escapeshellcmd($command);
+        global $CFG;
+        $cmd = "python3 " . $CFG->dirroot . "/local/ai/cli/python/" . $command;
+        $cmd = escapeshellcmd($cmd);
         $cmd = $cmd ." ";
         foreach($parameters as $key => $value) {
-            $cmd .= "{$key}=" . escapeshellarg($value) ." ";
+            $cmd .= "--{$key}=" . escapeshellarg($value) ." ";
         }
         return $cmd;
     }
 
-    public function execute_command($cmd) {
-        $execute = false;
+    public function execute_command($cmd, $execute = false) {
+        //$execute = false;
         $result = 0;
         $tempdir = make_temp_directory('ai');
         $output = null;
@@ -92,7 +94,7 @@ class manager {
         } else {
             mtrace("Would have executed: ".$cmd);
         }
-        return $result;
+        return implode("\n", $output);
     }
 
     public function chat($message) {
@@ -107,35 +109,62 @@ class manager {
         ];
 
         // TODO Perform RAG.
+        $context = $this->get_context($message);
+        $messages = [
+            [
+                "role"=>"system",
+                "content"=>"You are a helpful assistant. You may be provided with 
+                extra information which you should use in preference of other information."
+            ]
+        ];
+        if (!empty($context)) {
+            debugging("Attaching context");
+            $messages[] = [
+                "role"=>"system",
+                "content" => $context
+            ];
+        };
+        $messages[] = [
+                "role" => "user",
+                "content" => $message
+        ];
         $data = [
             'model' => "llama2",
-            'messages' => [
-                // These are arrays but since they're associative they'll be converted to JSON Objects.
-                [
-                    "role"=>"system",
-                    "content"=>"You are a helpful assistant"
-                ],
-                [
-                    "role" => "user",
-                    "content" => $message
-                ]
-            ]
+            'messages' => $messages
         ];
         
         $postdata = json_encode($data);
         if (debugging()) {
-            echo "$url\n$postdata";
+            echo "Sending: \n$url\n$postdata";
         }
+        // die();
         $result = \download_file_content(
             $url,
             $headers,
             $postdata
         );
         $result = json_decode($result);
-        var_dump($result);
+        
         $responses = $result->choices;
         foreach($responses as $response) {
             echo $response->message->content ."\n";
         }
+    }
+    /**
+     * Fetch the context for the LLM. 
+     */
+    protected function get_context($usermessage) {
+        $context = "";
+        $params = [
+            'vectorstorelocation' => $this->data_dir,
+            'query' => $usermessage
+        ];
+        $command = self::generate_command('query_vectorstore.py', $params);
+        if (debugging()) {
+            echo "Executing \"{$command}\"\n";
+        }
+        $context = $this->execute_command($command, true);
+
+        return $context;
     }
 }

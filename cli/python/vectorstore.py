@@ -1,7 +1,7 @@
 from langchain_community.embeddings import HuggingFaceInstructEmbeddings
 from langchain_community.vectorstores import FAISS
-from openai import OpenAI
-from openai import OpenAIEmbeddings
+# from openai import OpenAI
+# from openai import OpenAIEmbeddings
 
 # Get instance of VectorStore.
 def get(store_type, vectorstorelocation, cache_folder, model_name):
