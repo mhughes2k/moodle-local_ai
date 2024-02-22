@@ -73,6 +73,7 @@ if ($userid) {
     $user = core_user::get_user($userid);
 }
 
-$manager = new \local_ai\local\manager('test');
+$manager = new \local_ai\local\manager('global');
+    // 'test');
 
 $manager->chat($message);

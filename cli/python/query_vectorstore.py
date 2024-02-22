@@ -3,9 +3,7 @@
 # It will also initialise the vectorstore if it doesn't exists
 
 import argparse
-import os
-import textract
-import pandas
+import sys
 import vectorstore
 
 import json
@@ -17,6 +15,9 @@ from langchain.docstore.document import Document
 
 DEFAULT_MODEL="sentence-transformers/all-MiniLM-L6-v2"
 DEFAULT_STORE="faiss"
+def eprint(*args, **kwargs):
+    print(*args, file=sys.stderr, **kwargs)
+
 def main():
     parser = argparse.ArgumentParser(description='Add a document to the vectorstore.')
     parser.add_argument('--vectorstorelocation', type=str, help='Location of the vectorstore. No trailing slash',required=True)
@@ -30,14 +31,14 @@ def main():
     model_name = args.modelname
     store_type = args.storetype
     query = args.query
-    print(query)
+    eprint(query)
 
     try:
         vs = vectorstore.get(store_type, vectorstorelocation, cache_folder, model_name)
     except ValueError as e:
         # Couldn't load VS so initialise with this document
-        print(f"unable to load vector store {vectorstorelocation}: {e} ")
-        return
+        eprint(f"unable to load vector store {vectorstorelocation}: {e} ")
+        return 1
     # Vector Store was OK
     if (query is None):
         query = input("Enter your query: ")

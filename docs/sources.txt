@@ -1,0 +1,3 @@
+https://github.com/Limekiller/moodle-block_openai_chat/blob/main/classes/completion/azure.php
+https://platform.openai.com/docs/libraries/php
+https://github.com/ollama/ollama/blob/main/docs/openai.md

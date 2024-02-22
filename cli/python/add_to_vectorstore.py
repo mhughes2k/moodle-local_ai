@@ -9,12 +9,17 @@ import vectorstore
 from langchain_community.embeddings import HuggingFaceInstructEmbeddings
 import langchain_community.embeddings
 import langchain_community.vectorstores 
+import sys
 from langchain_community.vectorstores import FAISS
 
 #from langchain.vectorstores import FAISS
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.docstore.document import Document
 import json
+
+def eprint(*args, **kwargs):
+    print(*args, file=sys.stderr, **kwargs)
+
 
 def main():
     parser = argparse.ArgumentParser(description='Add a document to the vectorstore.')
@@ -32,7 +37,7 @@ def main():
     documentpath=args.documentpath
     documentmetadata=args.documentmetadata  # This should be a JSON string.
 
-    print("Preparing document")
+    eprint("Preparing document")
     document = prepare_document(documentpath, documentmetadata)
     # print(document)
 
@@ -40,27 +45,27 @@ def main():
                     cache_folder=cache_folder,
                     model_name=model_name
                 )
-    print(embeddings.embed_query(document.page_content))
+    eprint(embeddings.embed_query(document.page_content))
     try:
         vs = vectorstore.get(store_type, vectorstorelocation, cache_folder, model_name)
     except:
         # Couldn't load VS so initialise with this document
-        print("Initialising vector store")
+        eprint("Initialising vector store")
 
         vs = FAISS.from_documents([document], embeddings)
         try:
             vs.save_local(vectorstorelocation)
         except Exception as e:
-            print("Failed to save vector store")
-            print(e)
+            eprint("Failed to save vector store")
+            eprint(e)
         return
     # Vector Store was OK
     vs.add_documents([document])
     try:
         vs.save_local(vectorstorelocation)
     except Exception as e:
-        print("Failed to save vector store")
-        print(e)
+        eprint("Failed to save vector store")
+        eprint(e)
 
 
 def prepare_document(documentpath, documentmetadata):
@@ -72,12 +77,12 @@ def prepare_document(documentpath, documentmetadata):
         chunk_overlap=100,
     )
     split_text = text_splitter.split_text(text)
-    print(split_text)
+    eprint(split_text)
     page_content = ' '.join(split_text)
 
     # Parse metadata
     jsondata = json.loads(documentmetadata)
-    print(jsondata)
+    eprint(jsondata)
     jsondata["title"] = documentpath
 
     document = Document(

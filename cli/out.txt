@@ -1,0 +1,1675 @@
+prior credit
+Loading vectorstore from /var/www/moodledata/local_ai/test/
+load INSTRUCTOR_Transformer
+max_seq_length  512
+Title:training/policy/Policy_on_the_Recognition_of_Prior_Learning_and_Credit_Transfer.pdf; Content:POLICY ON THE 
+RECOGNITION OF 
+PRIOR LEARNING AND 
+CREDIT TRANSFER 
+
+Version No.  Description 
+1.0 
+
+Author 
+Education 
+Enhancement 
+
+Approval 
+Senate  
+
+ 
+
+Effective Date 
+From AY 2021-
+22 
+
+1.1 
+
+Education 
+Enhancement 
+
+Senate 
+
+April 2023 
+
+A policy confirming 
+arrangements 
+for 
+the  Recognition  of 
+Prior  Learning  and 
+credit transfer 
+
+A minor 
+amendment to 
+clarify the approval 
+route for internal 
+credit transfer. A minor 
+amendment to 
+clarify the approval 
+route for internal 
+credit transfer.  
+
+      
+
+ 
+the place of useful learning  
+The University of Strathclyde is a charitable body, registered in 
+Scotland, number SC015263 
+
+Contents GLOSSARY OF TERMS .................................................................................................................... 3 
+SCOPE .................................................................................................................................................. 4 
+INTRODUCTION .................................................................................................................................. 5 
+DEFINITIONS ....................................................................................................................................... 6 
+THE APPLICATION OF RPL AND CREDIT TRANSFER IN THE UNIVERSITY ..................... 6 
+CREDIT TRANSFER ........................................................................................................................... 7 
+THE USE AND RE-USE OF CREDIT ............................................................................................... 8 
+RECOGNITION OF PRIOR LEARNING .......................................................................................... 8 
+ROLES AND RESPONSIBILITIES ................................................................................................. 10 
+APPEALS ............................................................................................................................................ 10 
+Appendix A – Useful Resources .................................................................................................. 11 
+Appendix B: Recognition of Prior Learning (RPL)/ Credit Transfer Application Form . 12 2 
+
+ 
+
+ 
+
+ 
+ 
+
+GLOSSARY OF TERMS 
+ 
+
+Accredited Prior Learning 
+
+Advanced standing 
+
+Articulation 
+
+Board of Study 
+
+Direct entry 
+
+External Credit transfer 
+
+Exemptions 
+
+Experiential Prior Learning 
+
+ 
+
+ 
+ 
+
+Where previous study with a recognised educational 
+organisation has been formally assessed and can be 
+expressed in terms of credit (with or without grades). Applicants who achieve exceptional grades in their 
+Advanced Highers, A-levels or International 
+Baccalaureate (SCQF Level 7) or have successfully 
+completed an HC or HND at college may be considered 
+for Direct Entry normally into year two of a University 
+Honours or Integrated Masters programme. In some 
+circumstances, a student may be awarded advanced 
+standing credits based on their qualifications achieved 
+before starting at the University that can count towards 
+the total number of credits needed, reducing the 
+number of modules a student must take during their 
+studies. Whereby all students who satisfy academic criteria on 
+programmes where formal curriculum matching has 
+taken place are automatically entitled on academic 
+grounds to be admitted with advanced standing to a 
+University programme. 
+
+A Faculty’s senior academic committee, which makes 
+recommendations directly to Senate and takes some 
+decisions on behalf of Senate via delegated authority.  
+
+Where students enter into a University programme 
+normally in the second year, with Advanced Standing. Students may apply for external credit transfer if they 
+have earned credit at, or validated by, another UK 
+higher education institution with degree-awarding 
+powers. 
+
+Students who have partially completed a programme 
+from another education provider may be granted an 
+exemption in particular module(s) as long as curriculum 
+matching has taken place and appropriate supporting 
+evidence has been presented. Where informal, but potentially assessable, learning 
+has been acquired through relevant, adequate, and 
+recent experience in a wide variety of settings. 
+
+ 
+
+3 
+
+Internal Credit Transfer 
+
+Professional, Statutory and 
+Regulatory Body 
+
+Recognition of Prior Learning  
+
+Senate 
+
+Work-based Learning 
+
+Students may apply for internal credit transfer, where 
+they transfer their credits from one Strathclyde 
+programme, usually to pursue a higher award in the 
+same or a similar discipline. PSRBs accredit or endorse programmes that meet 
+professional standards, provide a route through to the 
+professions or are recognised by employers. 
+
+A method of assessing whether a learner’s experience 
+and achievements meet the evidence requirements (ie 
+the standard) of a module. The academic governing body within the University,   
+responsible for all academic matters including 
+academic standards and quality.  
+Incorporates learning through work, learning for work 
+and/or learning at work. It consists of authentic 
+structured opportunities for learning which are achieved 
+in a workplace setting or are designed to meet an 
+identified workplace need. This type of learning typically 
+has a dual function of being designed to meet the 
+learning needs of the employees, developing their 
+knowledge, skills and professional behaviours, and also 
+meeting the workforce development needs of the 
+organisation (QAA, 2018) SCOPE 
+
+1.  This Policy applies to all taught modules, including taught modules within 
+
+postgraduate research programmes. All students on these programmes are 
+eligible for RPL and credit transfer, including those students enrolled through 
+collaborative agreements. Any exemptions to the Policy must be approved by the 
+relevant Board of Study and Senate, as detailed within this Policy 2.  This Policy deals with how prior learning can be recognised across the University 
+to  enable  exemption  from  specific  modules  of  a  programme  and/or  to  allow 
+advanced entry leading to a qualification. The Senate has devolved to faculties the 
+management and assessment of RPL and credit transfer within this Policy. 3.  The transfer of credits awarded by an overseas degree awarding institution as part 
+of a Study Abroad or Erasmus exchange arrangement are managed through the 
+Recruitment and International Office and are not within the scope of this Policy.  
+ 
+
+4.  The transfer of credits, ‘advanced standing’ for articulation agreements or other 
+learning  within  collaborative  programmes  is  managed  within  each  Faculty’s 
+Admissions team or equivalent. 
+
+ 
+
+4 4 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+5.  Students  may  apply  with  advanced  standing  for  direct  entry  into  year  2  of  an 
+undergraduate  honours  programme 
+individual 
+applications, the University’s Admissions and Student Lifecycle Services team will 
+liaise  directly  with  the  relevant  academic  selector  to  consider  the  student’s 
+qualifications.  
+
+through  UCAS.  For 
+
+these these 
+
+6.  RPL and credit transfer can only be applied to taught modules and not for modules 
+where the main form of assessment is a dissertation or research project. Only the 
+taught element of a Postgraduate Research award may be granted RPL or credit 
+transfer.  For  further  information  regarding  the  use  of  existing  research  and/or 
+published output as part of any examinable part of the research degree, refer to 
+the Code of Practice for Postgraduate Research Students. 7.  This Policy should be read in conjunction with the University’s Admissions Policy, 
+the General Academic Regulations, the programme specific regulations and the 
+Equality and Diversity policies. 
+
+INTRODUCTION 8.  The University of Strathclyde (hereafter the University) recognises that knowledge 
+and  skills  can  be  developed  in a  diverse  range  of formal  and  informal  learning 
+contexts. The University seeks to accommodate the Recognition of Prior Learning 
+(RPL)  and  credit  transfer  as  a  means  of  providing  appropriate  entry  to  and 
+progression  within  undergraduate  and  postgraduate  programmes.  This 
+commitment  to  supporting  the  use  of  RPL  and  credit  transfer  reflects  the 
+University’s  leading  role  in  widening  access  to  and  participation  in  higher 
+education. 9.  The  University’s  Policy  on  RPL  has  been  developed  and  aligns  with  QAA 
+Scotland’s  Recognition of Prior Learning National Framework for Scottish Higher 
+Education). 
+
+10. There is no obligation for any department/school to formally consider requests for 
+RPL or credit transfer, provided it can demonstrate this would not be appropriate 
+to  the  programme  or  nature  of  provision  offered  (for  example,  due  to  the 
+requirements of a professional body). 11. Where an RPL or credit transfer claim can be formally considered, a Board of Study 
+should appoint the Head of Department/School to deliberate on entry to or partial 
+exemption from a programme provided this is done in accordance with relevant 
+University procedures and against criteria defined by an individual programme.  
+
+ 
+
+5 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+DEFINITIONS  
+ 
+
+12. This  Policy  distinguishes  between  credit  transfer  and  the  recognition  of  prior learning, defined as follows:  
+ 
+a.  Credit Transfer: where the credits or qualification(s) have been awarded by a 
+UK  higher  education  degree-awarding  body  in  accordance  with  the  relevant 
+higher education qualifications framework. Credit transfer may be internal (eg 
+from BSc in Mathematics to the BA in Management Science) or external (ie 
+from a UK higher education degree-awarding body to Strathclyde). It is only the 
+marks for internal credit transfer that are retained and used in credit weighted 
+average  calculations.  Marks  are  not  normally  retained  for  either  internal  or 
+external credit transfer when determining the final degree classification. b.  Accredited Prior Learning: where previous study with a recognised educational 
+organisation has been formally assessed and  can be expressed in terms of 
+credit.  
+
+ 
+c.  Experiential Prior Learning:  where non-formal and informal, but nonetheless 
+potentially assessable, learning has been acquired through relevant, adequate, 
+and recent experience. 13. Normally,  a  student’s  learning  will  be  handled  as  either  credit  transfer  or  RPL; 
+however, there may be occasions where both need to be considered ie a student 
+has a combination of UK credit and prior learning.  
+
+14. For both credit transfer and RPL, the minimum level of assessment is a module. 
+
+Students cannot apply for credit for or exemption from part of a module.  
+ 
+
+THE APPLICATION OF RPL AND CREDIT TRANSFER IN THE UNIVERSITY THE APPLICATION OF RPL AND CREDIT TRANSFER IN THE UNIVERSITY 
+ 
+
+15. RPL and credit transfer have three distinct purposes in the University. These are:  
+
+ 
+
+ 
+
+ 
+
+a.  To provide evidence to support admission to a programme;  
+
+b.  To allow for direct entry on to a programme; and, 
+
+c.  To allow exemption from specific modules within a programme. 
+
+ 
+
+6 c.  To allow exemption from specific modules within a programme. 
+
+ 
+
+6 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+16. For undergraduate programmes, the maximum number of credits for which credit 
+transfer and/ or RPL can be applied is normally 25%, and will not exceed 50% of 
+a four year undergraduate Honours degree subject to Senate approval. 17. For Integrated Masters programmes, the maximum number of credits for  which 
+credit transfer and/ or RPL can be applied is normally 20%, and will not exceed 
+40% of a five year Integrated Masters degree subject to Senate approval.  
+
+18. The number of credits for which credit transfer and/ or RPL can be applied to a 18. The number of credits for which credit transfer and/ or RPL can be applied to a 
+
+Postgraduate Taught programme is normally one third of the total number of 
+credits on the programme. For any exceptions to this Faculties must provide a 
+clear rationale as to why such an exception should be considered by Senate.  
+ 
+
+19. For internal credit transfer that exceeds the credit limits outlined in paragraphs 19. For internal credit transfer that exceeds the credit limits outlined in paragraphs 
+
+16-18, the standard internal credit transfer process will apply and on approval by 
+the Board of Study, be reported to Senate for information. 
+ 
+
+20. If internal credit transfer is approved by the Board of Study and where appropriate, 
+students will not be asked to ‘hand back’ any previously earned degree, diploma 
+or certificate until the higher level award has been achieved and conferred. 21. Any  programme-specific  variations  to  these  regulations  must  be  identified  and 
+approved at the point of programme approval or review (for example, some awards 
+may exclude or limit the use of RPL due to Professional, Statutory and Regulatory 
+Body (PSRB) requirements).  
+
+CREDIT TRANSFER CREDIT TRANSFER  
+ 
+
+22. Students may apply for external credit transfer, subject to the number of credits 
+above,  provided  they  have  earned  credit  at  a  validated  UK  higher  education 
+institution with degree-awarding powers. 23. Applications for credit transfer require academic judgement in determining whether 
+prior module content (for which the student has earned credit) can be mapped onto 
+a  module/modules  at  the  University.  A  student’s  application  should  therefore 
+include  evidence  of  credit  received,  (a  transcript  or  equivalent),  plus  a  module 
+descriptor or syllabus that provides evidence of the learning outcomes achieved. 24. Credit transfer can be applied internally, to modules that have achieved a pass 
+
+mark. In such instances, the relevant mark will be retained as per para 12a. 
+
+ 
+
+7 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+THE USE AND RE-USE OF CREDIT 25. Credits may be awarded for prior learning where the level, standard, content and 
+relevance  of  that  learning  is  appropriate  to  a  particular  programme  and  has 
+normally  taken  place  within  a  period  of  five  years.  In  particular,  credit  may  be 
+awarded via RPL for: 
+  
+a.  individual modules, where it can be demonstrated that the learning outcomes 
+for  the  module  through  knowledge,  understanding,  and/or  skills  that  they 
+already possess are met as a result of prior learning; and/or, b.  for a full year of study (i.e. 120 credits), where the applicant or student can 
+demonstrate that they meet the learning outcomes for the relevant year of study 
+through knowledge, understanding, and/or skills that they already possess as 
+a result of prior learning. 26. Credit for a completed award can only be used to seek advanced standing on to a 
+programme leading to an award at a higher level. Credit for a completed award 
+cannot be used towards another award at the same level, as this would constitute 
+double-counting of credit, unless the following criteria are met: 
+  
+a.  The programme is in a different subject, vocational or professional area to their 
+
+prior award at undergraduate or postgraduate level; or, prior award at undergraduate or postgraduate level; or, 
+ 
+
+b.  The  award  is  at  SCQF  level  11  (Masters  level)  and  enables  the  student  to 
+
+advance in their existing subject in a new or specialist direction. 
+
+27. A student granted RPL credit cannot subsequently re-use that credit towards a 
+further award offered at the University, unless the student is granted credit for prior 
+learning as part of a programme with a direct progression route. 28. In line with SCQF guidance, credits awarded are considered to be of the same 
+value as those gained within the University. However, as per para 12a the credits 
+are  normally  accepted  as  ungraded  and  therefore  do  not  contribute  to  the final 
+degree classification on any programme.  
+ 
+
+ 
+
+RECOGNITION OF PRIOR LEARNING RECOGNITION OF PRIOR LEARNING 
+    
+
+29. Matching prior learning to the learning outcomes of a programme or module is an 
+academic judgement and as such departments and schools are responsible for 
+making and recording detailed decisions on RPL through their Board of Study. 
+ 
+
+ 
+
+8 8 
+
+ 
+
+ 
+
+   
+
+ 
+ 
+
+30. The  Board  of  Study  may,  with  the  approval  of  Senate,  admit  applicants  and/or 
+approve  exemption  from  part  of  a  programme  by  RPL  provided  this  is  done  in 
+accordance with University procedures. 31. An applicant can be accepted for a programme or awarded an exemption for a 
+particular module where the applicant or student can evidence that their accredited 
+or experiential learning matches the appropriate learning outcomes and meets the 
+following criteria: 
+  
+a.  Relevant – the learning gained provides the applicant with knowledge and skills 
+
+which are relevant to the programme; which are relevant to the programme; 
+  
+
+b.  Sufficient  –  the  learning  gained  from  accredited  study  is  of  an  equivalent 
+academic level to the standard entry requirement or content of a module or 
+programme,  and  that  the  breadth  and  depth  of  prior  experiential  learning  is 
+considered to be sufficient to demonstrate the applicant’s potential; 
+  
+
+c.  Verifiable – the evidence provided can be authenticated as being the outcome 
+
+of the learner’s own effort; of the learner’s own effort; 
+  
+
+d.  Recent – the learning meets the University’s requirement for recent study (i.e. 
+normally  within  5  years  of  application).  However,  Heads  of  Department  or 
+Schools may adjust the restrictions on the recency of learning cited in any claim 
+for  RPL  in  line  with  their  judgement  on  demands  of  specific  programmes, 
+particularly where a qualification is followed by a period of related practice. 32. Where RPL is routinely used in the admissions process for a programme, detailed 
+information will be available to applicants about the evidence they will be required 
+to provide and how this will be used in the admissions process.  
+ 
+
+33. It is essential that an applicant who wishes to make an application based on RPL 
+discusses  this  with  the  relevant  department/  school  admissions  staff before  an 
+application is submitted. 34. The University recognises the implications of granting applications for RPL where 
+professional and regulatory bodies impose any particular restrictions on the use of 
+RPL  and  this  will  be  reflected  in  the  handling  of  RPL  applications  within 
+departments/ schools.  
+
+ 
+
+9 The  University’s  governing  academic  body  with  overall 
+responsibility  for  ensuring  the  integrity  of  the  University’s 
+awards.  
+To ensure all decisions regarding admission of applicants and/ 
+or approving exemption from part of a course by credit transfer 
+and/or  RPL  are  undertaken  in  adherence  with  the  relevant 
+University policies and regulations. 
+Responsible for ensuring all decisions taken in relation to RPL 
+and/  or  credit  transfer  are  consistent  with  the  University’s 
+regulations and are reported to the Board of Study. 
+Responsible for recording RPL for Entry and credit transfer at 
+university level and notifying applicant if RPL awarded.  
+To provide advice on the regulatory aspects of RPL. 35. Neither RPL nor credit transfer can be used as an extenuating circumstance for 
+
+underachievement in subsequent assessments. underachievement in subsequent assessments. 
+ 
+
+36. There can be no appeal against the finding of a department/school in an RPL or 
+credit  transfer  application.  However,  students/applicants  are  able  to  pursue  a 
+complaint through the University’s Complaints Handling Procedure if they believe 
+their  claim  has  not  been  processed  in  accordance  with  this  Policy  and  related 
+University policies. 1.  Appendix A sets out a  series of helpful external resources that can  be used  when 
+
+considering RPL/credit transfer. 
+ 
+
+2.  Appendix B contains the University’s RPL/Credit Transfer claim form to be completed 
+
+by students and applicants seeking to claim RPL and/or Credit Transfer.  
+
+ 
+
+ROLES AND RESPONSIBILITIES  
+ 
+
+Senate 
+
+Board of Study 
+
+Department/ School 
+
+Directorate of Student 
+Experience 
+Quality Enhancement 
+and Assurance Team 
+
+APPEALS 
+ 
+
+ 
+ 
+APPENDICES APPEALS 
+ 
+
+ 
+ 
+APPENDICES 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+10 
+
+Appendix A – Useful Resources 
+ 
+1.  QAA Scotland RPL resources, including RPL National Framework in Scotland 
+https://www.qaa.ac.uk/scotland/development-projects/recognition-of-prior-learning 
+
+ 
+2.  SCQF Guide to RPL 
+
+https://scqf.org.uk/guide-to-rpl/ 
+
+ 
+3.  SCQF Handbook (section 4 considers RPL) 
+
+ 
+4.  Scottish National Qualifications: Old vs New 
+
+https://scqf.org.uk/media/1104/old-v-new.pdf 4.  Scottish National Qualifications: Old vs New 
+
+https://scqf.org.uk/media/1104/old-v-new.pdf 
+
+https://scqf.org.uk/media/1125/scqf_handbook_web_final_2015.pdf 
+
+ 
+5.  Qualifications can cross boundaries: Guide to comparing qualifications in the UK 
+
+and Ireland 
+https://www.qaa.ac.uk/docs/qaas/news-and-events/qualifications-can-cross-boundaries-
+guide-to-comparing-qualifications-in-the-uk-and-ireland.pdf?sfvrsn=3715c981_4 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+11 11 
+
+Appendix B: Recognition of Prior Learning (RPL)/ Credit Transfer Application 
+Form 
+ 
+
+This form should be completed by University of Strathclyde students or applicants who intend 
+to make a claim for RPL and approved by the relevant Academic Selector. Completed forms 
+must be typed and submitted via email to: •  Faculty of Humanities and Social Sciences: HaSS-pg-enquiries@strath.ac.uk 
+•  Faculty of Engineering: eng-enquiries@strath.ac.uk 
+•  Faculty of Science: science-enquiries@strath.ac.uk 
+•  Strathclyde Business School: sbs-advisor@strath.ac.uk 
+
+Further information on the use of RPL/ credit transfer at the University of Strathclyde can be 
+found in the Policy on Credit Transfer and RPL. Module code(s) and title(s) you would like to claim RPL and/ credit transfer towards: 
+Please  consult  the  University  of  Strathclyde  programme  catalogue  and/or  contact  the 
+appropriate Programme Leader for assistance  
+
+Module code(s) 
+
+Module title(s) 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Name: 
+Student or 
+applicant number 
+(if known): 
+Email address: 
+Intended 
+programme  
+Level of entry 
+Expected start 
+date: 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+12 12 
+
+Formal qualifications fully or partly completed (if any): 
+
+Qualification title 
+
+Subject Area 
+
+Place of study 
+
+SCQF 
+Level 
+
+Date 
+achieved 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Details of any relevant learning gained through life and/or work experiences (if any): Details of any relevant learning gained through life and/or work experiences (if any): 
+
+This is experiential (either informal or non-formal) learning. If you choose to submit a claim 
+involving this type of evidence, the member of University staff assigned to assess your claim 
+will be in touch to discuss the information and supporting evidence that may be required to 
+process your claim. . Please summarise the evidence you are submitting to submit to support your claim 
+(e.g. copies of qualifications, module descriptors, transcripts and/or CV, references): 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+13 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+14 Student signature 
+Dated 
+ 
+Personal information which you supply to the University of Strathclyde will be used to make a 
+decision  on  your  application.  The  University  of  Strathclyde  is  the  data  controller  for  your 
+information. Further information on how your information is used and your rights is available 
+on online.  
+ 
+To be completed by University staff: 
+Value of credits and level  
+Please record the number of credits and the level at which they apply for each instance of 
+attainment. This information should be captured for each instance of module and/ or area of 
+experiential learning that is being used to award credit.  
+Value Level 
+ 
+ 
+ 
+ 
+
+ 
+Approver’s  
+signature 
+Title 
+Dated 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+15
+Title:training/policy/Policy_on_Compensation_Scheme.pdf; Content:POLICY ON 
+COMPENSATION 
+SCHEME 
+
+Version No. 
+1.3 
+ 
+ 
+1.4 
+
+Description 
+Policy on 
+Compensation 
+Scheme.  
+
+Policy on 
+Compensation 
+Scheme. 
+
+Author 
+Assessment 
+and Feedback 
+Working 
+Group 
+Quality 
+Assurance 
+Committee 
+
+Approval 
+Senate  
+
+Effective Date 
+From academic 
+year 2019-20 
+
+Minor revision 
+
+1st February 
+2022 
+
+      
+
+Version 1.4 Minor revision 
+
+1st February 
+2022 
+
+      
+
+Version 1.4 
+
+the place of useful learning  
+The University of Strathclyde is a charitable body, registered in 
+Scotland, number SC015263 
+
+ Policy on Compensation Scheme 
+
+In order to maintain academic standards and to ensure consistency of procedures and equitable 
+treatment  of  students,  the  University  operates  a  complimentary  compensation  scheme  for 
+Undergraduate, Integrated Masters (IM), and postgraduate taught degree programmes. Rationale 
+
+1.  Compensation 
+
+ 
+
+ 
+
+1.1  Except  where  not  permitted  for  reasons  of  professional  accreditation,  the  University 
+compensation  scheme  shall  apply  to  all  years  of  full-time,  part-time  and  distance-
+learning undergraduate programmes and all years of postgraduate taught programmes 
+provided the total number of credits for the modules under consideration amounts to a 
+minimum of 120 for full-time students, and pro-rata for part-time students. 1.2  For 4th year and 5th year UG degrees, final honours degree awards may be made using 
+a  credit  block  award,  which  has  a  compensation  mechanism  built  into  the  process. 
+Where this is the case no additional method of compensation will be applied. 1.3  In respect of part-time study, compensation shall  only  be applied at  the point on  the 
+programme  at  which  a  student has  completed modules that exceed a multiple of 60 
+credits.  In  the  following  table,  the  total  number  of  credits  that  can  be  compensated 
+should be adjusted accordingly, i.e. normally 10 credits of compensation per 60 credits 
+attempted. Alternatively, if a part time student is on a programme which does not include 
+10 credit modules (or includes a mixture of 10/20 credit modules), a maximum of 20 
+credits of compensation can be applied over 120 credits. This could be awarded in their 
+first  year  (provided  they  have  taken  60  credits  and  have  the  CWA  required  for 
+ 
+compensation), which would then exclude them from being given further compensation 
+in the second year. In this circumstance all 60 credits must be awarded with numerical 
+marks (not pass/fail).  If awarded in their second year, at least 100 credits over both 
+years must be awarded with numerical marks with a maximum of 20 credits as pass/fail. 1.4  Compensation shall only be applied to a student’s first attempt at a module unless the 
+student  is  re-attending  the  year  and  taking  a  full  curriculum.  A  student  taking 
+examinations at a second or subsequent attempt shall not be eligible for compensation 
+in that session unless any previous attempt is formally discounted.  
+
+Undergraduate compensation Undergraduate compensation 
+
+To  be  eligible 
+for  compensation  at 
+undergraduate level, a student is required 
+to  obtain  a  credit  weighted  average  of 
+module marks at the first attempt of at least 
+45%. 
+An  undergraduate  student  who  has 
+achieved a  credit  weighted average of  at 
+least  45%  but  has  failed  one  or  more 
+modules  shall  be  awarded  a  ‘Pass  by 
+Compensation’  in  modules  totaling  up  to 
+20 credits where the marks obtained are in 
+the 30%-39% range. Postgraduate Compensation 
+
+To  be  eligible 
+for  compensation  at 
+postgraduate level, a student is required to 
+obtain a credit weighted average of module 
+marks at the first attempt of at least 55%. 
+
+A postgraduate student who has achieved 
+a credit weighted average of at least 55% 
+but has failed one or more modules shall 
+be awarded a ‘Pass by Compensation’ in 
+modules totaling up to 20 credits where the 
+marks  obtained  are  in  the  40-49%  range 
+
+2 2 
+
+ 
+
+ 
+
+ 
+
+ Policy on Compensation Scheme 
+
+(or 30-39% range if the module is a level 4 
+module). 
+
+ 
+
+In  the  event  of  a  student  who  is  eligible 
+for  compensation  obtaining  marks  in  the 
+range  30-39%  for  modules  totaling  more 
+than 20 credits, then normally the highest 
+fail  marks 
+by 
+Compensation’.  However, 
+final 
+decision  regarding  which  mark  will  be 
+compensated shall be at the discretion of 
+the relevant Board of Examiners. 
+
+‘Passed 
+
+shall 
+
+the 
+
+be ‘Passed 
+
+shall 
+
+the 
+
+be 
+
+ 
+
+In  the  event  of  a  student  who  is  eligible 
+for  compensation  obtaining  marks  in  the 
+range  40-49%  (30-39%  for  a  level  4 
+module) for modules totaling more than 20 
+credits,  then  normally  the  highest  fail 
+marks shall be ‘Passed by Compensation’. 
+However,  the 
+final  decision  regarding 
+which  mark  will  be compensated shall be 
+at  the  discretion of  the  relevant Board  of 
+Examiners. 1.5  Modules where marks are returned as a P or F are not eligible for compensation, and 
+shall  also  be  discounted  from  the  calculation  of  the  credit  weighted  average.    A 
+maximum  of  20  credits  of  P  or  F  credits  may  be  counted  to  meet  the  120  credit 
+curriculum eligibility criterion.  Where more than 20 credits have been returned as P or 
+F, students will not normally be eligible for compensation. 1.6  At UG and IM level, individual dissertation and group project modules that are 40 or 
+more credits are not eligible for compensation, although their credits may be counted to 
+meet the 120 credit curriculum eligibility criterion for compensation to be applied to other 
+ 
+modules. All other modules are eligible for compensation, providing they are 20 credits 
+or less, and shall also be included in the calculation of the credit weighted average.  This 
+does not prohibit any final award arrangements that may involve a block credit award, 
+as defined by specific exam board conventions (see section 2.2). 1.7  At PG level, individual dissertation and group project modules that are 40 or more credits 
+are not eligible for compensation and are discounted from the calculation of the credit 
+weighted average for compensation, although they may subsequently contribute to the 
+credit  weighted  average  for  award.  All  other  modules  are  eligible  for  compensation, 
+providing they are 20 credits or less, and shall also be included in the calculation of the 
+credit weighted average. 1.8  If a mark is returned as ‘A’ for absent or ‘NQ’ for Not Qualified this will count as zero and 
+
+will be included in the average mark for calculation of compensation. 1.9  Where  programme  regulations  or  Departmental/School  requirements  specify  that  a 
+Pass in a particular module is required for progress, then a ‘Pass by Compensation’ 
+shall  not  be  sufficient  to  fulfil  this  requirement.  Similarly  where  a  programme  is 
+professionally accredited, it may be exempt from the compensation scheme to fulfil the 
+requirements  of  the  accrediting  body.  A  student  shall  be  permitted  to  take  a  resit 
+assessment for a module in which a ‘Pass by Compensation’ had already been achieved 
+in  order  to  fulfil a  specific  programme requirement  i.e.  in  situations  where  a  student 
+selects a principal subject that requires a Pass in particular modules. 3 
+
+ Policy on Compensation Scheme Policy on Compensation Scheme 
+
+1.10 In the event of a student taking a re-sit assessment for a module already Passed by 
+Compensation at the first diet for the reasons given in 1.12, then both marks e.g.  UG 
+June board = 30% (Pass by Compensation) and UG September resit board = 78% shall 
+be recorded on the student’s record, academic transcript and the respective June and 
+September examination schedules. The credits for this module will only contribute once 
+to the student’s credit total. 1.11 Compensation shall normally be applied at the first meetings of Boards of Examiners 
+where the student has attempted the required number of credits for compensation to be 
+applied (see Sections 2.1 and 2.2) only, that is, when the student’s first attempts at the 
+examination of the curriculum are being considered. In cases where a student has not 
+obtained all of the credits for the modules in the programme curriculum they were taking 
+at the first meeting of Boards of Examiners, then re-sits in all failed modules (i.e. those 
+not passed or not passed by compensation) should be attempted at the next available 
+diet of examinations. 1.12 A student shall not be permitted to attempt the re-sit in any module for which credits 
+have  already  been  awarded  (unless  a  pass  is  required  for  progress  or  professional 
+accreditation). 1.13 In  the  event  of  a  professional  body  providing  written  confirmation  that  it  would  not 
+accredit  a  programme  operating  the  University  compensation  scheme,  then  the 
+programme concerned may be exempted from the scheme and an alternative scheme 
+installed compliant with the regulations of that professional body. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+4
+Title:demo/hello.txt; Content:Hello this is an introduction document for loading.
+Title:training/policy/Assessment_and_Feedback_Policy.pdf; Content:ASSESSMENT AND 
+FEEDBACK POLICY 
+
+Version No.  Description 
+
+Author 
+
+Approval 
+
+Effective Date 
+
+Senate 
+
+From academic 
+year 2019-20 
+
+1.2 
+
+Assessment and 
+Feedback Policy – 
+applicable to both 
+undergraduate and 
+postgraduate taught 
+courses 
+
+Assessment 
+and 
+Feedback 
+Working 
+Group 
+
+ 
+
+Version 1.2 
+
+ 
+the place of useful learning  
+The University of Strathclyde is a charitable body, registered in 
+Scotland, number SC015263 
+
+ 
+
+ 
+1.  RATIONALE 1.  RATIONALE 
+
+ 
+
+Assessment and Feedback Policy In  higher  education,  “assessment”  describes  any  process  that  involves  the  evaluation  or 
+appraisal of a student’s knowledge, understanding, skills, attitudes or abilities. In line with the 
+QAA UK Quality Code for Higher Education, assessment is taken to be an integral component 
+of teaching and learning, and serves multiple purposes. In addition to enabling evaluation and 
+measurement  of  students’  learning,  effective  assessment  shapes  and  enhances  student 
+learning.  Assessments  should  therefore  be  designed  to  facilitate  students’  attainment  of 
+intended learning outcomes, and permit the measurement of such attainments against explicit 
+criteria. A holistic approach to assessment at course level can also support the development of 
+distinctive Strathclyde graduate attributes: graduates that are engaged, enquiring, enterprising, 
+and ethically and globally aware. Recent publications on assessment and feedback in higher 
+education  suggest  a  ‘transformation’  is  required  to  ensure  that  assessment  and  feedback 
+practices  enable  students  to  develop  such  attributes  and  the  skills  needed  to  be  lifelong 
+learners in the 21st century.1 This  approach  recognises  that  assessment  is  central  to  learning  and  teaching,  and  is  not 
+designed  solely  to  measure  student  learning.  Also  essential  to  enhancing  learning,  is  the 
+provision of continuous feedback to students on their learning; it is recognised that feedback 
+takes different forms (e.g. replies to posts on a discussion forum), but in relation to assessment, 
+useful feedback is feedback that is specific in informing learners the extent to which they have 
+met  published  assessment  criteria,  and  explains  to  them  what  they  need  to  do  to  improve. 
+Ensuring  feedback  is  clear,  specific,  and  adopts  a  supportive  tone  is  most  likely  to  foster 
+student  engagement  with  feedback.  The  role  of  feedback  in  effectively  supporting  student 
+learning  should  be  recognised  at  the  assessment  design  stage,  where  factors  such  as  the 
+timing  of  the  release  of  feedback  and  the  scheduling  of  subsequent  assessments  are 
+considered (particularly where feedback can be used by students to improve the development 
+of future work), as well as the provision of opportunities for students to clarify feedback. The  University  expects  that feedback  will  normally be  returned  to  students  within  15  working 
+days  of  assessment  submission2.  The  University’s  VLE,  Myplace,  provides  a  platform for the 
+electronic return of grades and feedback, and where permitted by the nature of an assessment, 
+staff  are  expected  to  implement  the  submission  of  assessments  online  through  Myplace,  in 
+order to promote effectiveness and efficiency in each stage of the assessment and feedback 
+process. In addition, Myplace should be used to manage assessments that are submitted offline 
+in order to implement the Policy and Procedure on Extensions to Coursework Submission and 
+Procedures  for  the  Recording  and  Publication  of  Marks.  Staff  should  also  be  cognisant  of 
+specific  issues  relevant  to  equality,  diversity  and  inclusion  in  designing  assessments  and 
+providing feedback, which may affect particular groups of students.3 1 For example: Boud, D. & Falachikov, N. (Eds.). (2007). Rethinking Assessment in Higher Education. Oxon: 
+Routledge; Higher Education Academy. (2012). A Marked Improvement. Transforming assessment in higher 
+education. York: The Higher Education Academy; Merry, S., Price, M., Carless, D. & Taras, M. (Eds.). (2013). 
+Reconceptualising  Feedback  in  Higher  Education.  Developing  Dialogue  with  Students.  Oxon:  Routledge; 
+Carless,  D.  (2015).  Excellence  in  university  assessment:  learning  from  award-winning  practice.  London: 
+Routledge. 
+2 Exceptions to this are dissertations or assessments with credit weightings of 40 credits or higher, and where 
+double marking is required. (See the Policy on Moderation and Double Marking).  
+3 Staff are advised to consult the University’s equality impact assessment information where relevant. 1 
+
+ 
+ 
+
+ 
+
+the Assessment and Feedback Policy 
+Previous  work  on  assessment  at  Strathclyde  (through  the  Re-Engineering  Assessment 
+Practices4 and Peer Evaluation in Education Review5  projects, together with the work on Peer 
+and  Community  Personal  Development  Planning),  have  emphasised  the  importance  of 
+providing students with opportunities to self- and peer-assess, and for students to develop the 
+capacity  to  evaluate,  reflect  on6  and  manage  their  own  learning  through  the  effective  use  of 
+feedback.  Published  research  also  highlights 
+importance  of  developing  students’ 
+understanding of the criteria and standards by which their work is assessed, and suggests that 
+providing students with the opportunity to analyse and discuss the qualities of carefully selected 
+exemplars is an effective learning activity to achieve this7. It is widely recognised that these will, 
+in the long-term, help develop attitudes and skills that foster engagement and independence in 
+learning.  
+ 
+The  aim  of  the  current  policy  is  to  develop  an  institution-wide  approach  to  assessment  and 
+feedback  that  enhances  the  effectiveness  of  assessment  in  aiding  students  to  achieve  the 
+necessary  knowledge  and  skills  described  in  a  class  or  programme’s  intended  learning 
+outcomes.  The  policy  is  underpinned  by  principles  of  assessment  and  feedback  (outlined  in 
+section  3)  that  reflect  this  aim  and  a  commitment  to  ensuring  our  assessment  and  feedback 
+practices are fair, transparent, and continuously reviewed. In short, to ensure they continue to 
+be fit for purpose. This policy should be adhered to across the University. The implementation 
+of the policy will be monitored by the Quality Assurance Committee. 2.  SCOPE This  policy  applies  to all  undergraduate  and  postgraduate  taught  programmes  offered  by  the 
+University. This policy should be read in conjunction with other relevant University policies and 
+procedures.  The  University  website  contains  policies  and  procedures  on  a  range  of 
+assessment-related  matters,  including:  ensuring  equality,  guidance  for  staff  on  supporting 
+students  with  a  disability,  guides  for  staff  marking  assessments  in  undergraduate  and 
+postgraduate taught courses, guidance for students and staff on avoiding plagiarism, guidance 
+for staff in dealing  with possible cases  of plagiarism, policies on classifying honours degrees 
+and other degree awards, and on awarding motivational merit and distinction, guidance on the 
+compensation  scheme,  the  role  of  external  examiners  in  taught  courses,  the  procedure  for 
+dealing  with  student  discipline  cases,  guidance  for  staff  on  the  appeals  procedure  and 
+accounting for students’ personal circumstances. 4 REAP Project, accessed at http://www.reap.ac.uk/ 
+5 PEER Project, accessed from: http://www.reap.ac.uk/PEER.aspx. The site contains a PEER toolkit 
+containing guidance for staff on using peer review. 
+6 Winstone, N. & Nash. R. (2016). The Developing Engagement with Feedback Toolkit (DEFT). The Higher 
+Education Academy. https://www.heacademy.ac.uk/knowledge-hub/developing-engagement-feedback-toolkit-
+deft 
+7 Carless, D. & Boud, D. (2018): The development of student feedback literacy: enabling uptake of feedback, 
+Assessment & Evaluation in Higher Education, DOI: 10.1080/02602938.2018.1463354 2 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+3.  ASSESSMENT AND FEEDBACK PRINCIPLES 
+
+ 
+
+ 
+
+Assessment and Feedback Policy 
+
+These principles have been widely consulted on across the University, and must be adhered to 
+throughout the institution.  
+
+PRINCIPLE  1.  ASSESSMENT  AND  FEEDBACK  PRACTICES  PROMOTE  EFFECTIVE 
+STUDENT LEARNING PRINCIPLE  1.  ASSESSMENT  AND  FEEDBACK  PRACTICES  PROMOTE  EFFECTIVE 
+STUDENT LEARNING 
+
+1.1  Assessment  and  feedback  activities  are  designed  to  foster  student  engagement,  to 
+support  and  measure  students’  attainment  of  knowledge,  understanding,  and 
+transferable skills.  
+
+1.2  A  range  of  assessment  methods  are  used,  increasing  in  complexity  across  a 
+
+programme, and taking into consideration student and staff workloads. programme, and taking into consideration student and staff workloads. 
+
+1.3  Assessment  and  feedback  practices  align  with  intended  learning  outcomes  and 
+assessment criteria, and provide opportunities for students to be active  participants in 
+the process, including opportunities for students to discuss feedback. 1.4  Timely, constructive, and supportive feedback helps students understand the extent to 
+which  they  have  fulfilled  the  assessment  criteria,  and  supports  students  to  use  their 
+feedback in the development of subsequent work. 1.5  The  timing  of  assessments  and  return  of  feedback  should  be  scheduled  to  enable 
+students  to  use  feedback  to  inform  their  approach  to  subsequent  assessments.  The 
+release of feedback should consider the ability of students to gain further feedback and 
+support, and avoid release in close proximity to periods where the university is closed 1.6  Where examinations are used, students should receive at least general feedback soon 
+after  the  examination.  Students  who  wish  to  view  their  exam  scripts  following  the 
+provision of general feedback should be facilitated to do so under supervision of staff. 
+
+PRINCIPLE  2.  ASSESSMENT  AND  FEEDBACK  PRACTICES  ARE  APPROPRIATE,  FAIR, 
+AND TRANSPARENT PRINCIPLE  2.  ASSESSMENT  AND  FEEDBACK  PRACTICES  ARE  APPROPRIATE,  FAIR, 
+AND TRANSPARENT 
+
+2.1  Assessment tasks are appropriate to disciplinary and/or professional contexts. 
+2.2  Assessment applies rigorous academic standards related to and across, the discipline(s) 
+
+or professional context and is based on clearly defined assessment criteria. 
+
+2.3  Assessment  grading  and  feedback  is  based  solely  on  students’  achievement  against 
+
+criteria and standards. criteria and standards. 
+
+2.4  Assessment and feedback practices are fair, inclusive and accessible to all students. 
+
+PRINCIPLE  3.  ASSESSMENT  AND  FEEDBACK  PRACTICES  ARE  CLEARLY 
+COMMUNICATED TO STUDENTS AND STAFF 
+
+3.1  Students must be made aware at the beginning of a class of the details of assessments, 
+
+including the purpose, weighting, and timing of assessment. including the purpose, weighting, and timing of assessment. 
+
+3.2  Students must be made aware at the beginning of a class of the nature and timing of 
+feedback. Where unexpected problems cause a delay in the return of feedback within 15 
+working days, an explanation will be provided to students, along with a new date for the 
+return of feedback. 
+
+3.3  All students and staff are made aware at the start of a class of the criteria and standards 3.3  All students and staff are made aware at the start of a class of the criteria and standards 
+
+used to assess and provide feedback on students’ work. 
+
+ 
+ 
+
+ 
+
+ 
+
+3 
+
+ 
+
+ 
+
+Assessment and Feedback Policy 
+3.4  Students  must  be  made  aware  of  relevant  policies  and  procedures  around  academic 
+honesty  in  assessment,  and  of  procedures  associated  with  personal  circumstances, 
+extensions to the deadlines of coursework, and late submission of coursework. 3.5  There  are  opportunities  for  students  and  staff  to  engage  in  a  dialogue  around 
+
+assessment and feedback, including opportunities for students to clarify feedback. 
+
+3.6  In  each  programme  the  processes  for  marking,  moderation,  and  feedback  are 
+
+appropriate and fair and are explained to students and staff. 
+
+PRINCIPLE  4.  ASSESSMENT  AND  FEEDBACK  PRACTICES  ARE  CONTINUOUSLY 
+REVIEWED PRINCIPLE  4.  ASSESSMENT  AND  FEEDBACK  PRACTICES  ARE  CONTINUOUSLY 
+REVIEWED  
+
+4.1  The timing of assessment activities at cohort level, including the timing of examinations, 
+
+are monitored and reviewed, in order to minimise bunching.  
+
+4.2  Assessment and feedback activities, and the outcomes of assessment, are reviewed via 
+the  class  and  course  approval  and/or  review  processes,  and  external  examining 
+processes. 4.3  Assessment  and  feedback  activities  are  continuously  reviewed  to  ensure  effective 
+
+alignment with a programme’s intended learning outcomes and graduate attributes. 
+
+4.4  Opportunities to develop effective practice and innovation in assessment and feedback 
+
+are available to all staff involved in assessment. 
+
+ 
+4.  ANONYMOUS MARKING are available to all staff involved in assessment. 
+
+ 
+4.  ANONYMOUS MARKING 
+
+4.1 Anonymous marking (when the identity of a student is not known to a marker and/or exam 
+board) will be used for all assessments wherever possible and appropriate, including formal 
+written examinations at both undergraduate and postgraduate levels. 4.2 Where  anonymous  marking  is  not  possible,  for  example  where  an  alternative  method  of 
+assessment has been used for a student with a disability, additional scrutiny by a second 
+marker may be appropriate.  
+
+4.3 Other  exceptions  will  be  where  the  mode  of  assessment  (e.g.,  presentations  or  oral 
+examinations) prevents anonymity, or where there is pedagogical justification (e.g., the use 
+of ipsative feedback). 4.4 Double marking is effective practice for assessments that are not marked anonymously and 
+
+for dissertations, or comparable assessments. 
+
+ 
+5.  RESPONSIBILITIES FOR IMPLEMENTATION 
+
+5.1 The University assumes responsibility for: -  Providing  staff  with  opportunities  to  develop  effective  practice  in  assessment  and 
+feedback through the Organisational Staff and Development Unit (Strathclyde Teaching 
+Excellence Programme) Education Enhancement (the University’s VLE, Myplace offers 
+various  tools  to  support  effective  practice  in  assessment  and  feedback,  including 
+handling peer review/assessment activities, online assessment submission and return of 
+feedback, and enabling efficient communication with different student and staff groups; 
+the  Sharing  Practice  in  Enhancing  Learning  and  Teaching  (SPELT)  platform,  and 4 
+
+ 
+ 
+
+ 
+
+Assessment and Feedback Policy 
+TESTA), the Disability and Wellbeing Service (for ensuring assessments are accessible 
+to all students), and the Equality and Diversity Office;  
+
+ 
+
+-  Providing  adequate  resources,  including  information  technology  systems,  to  support 
+effective  practice  (Information  Services  Directorate,  Student  Business,  Education 
+Enhancement); and 
+
+-  Monitoring  implementation  of  this  policy  through  the  Quality  Assurance  Committee -  Monitoring  implementation  of  this  policy  through  the  Quality  Assurance  Committee 
+
+(Education Enhancement). 
+
+5.2 Faculties  are  responsible  for:  overseeing  and  receiving  reports  from  programme  exam 
+boards;  scrutinising  external  examiners’  reports  and  responding  to  them;  ensuring 
+consistency  in  the  implementation  of  this  and  other  related  policies  across  programmes, 
+and sharing effective practice within and between faculties. 5.3 Heads  of  Department/School  are  responsible  for:  instructing  colleagues  within  their 
+Department/School  to  note  and  adhere  to  the  Assessment  and  Feedback  Policy  and 
+Procedures  for  Recording  and  Publication  of  Marks,  Procedures  on  Preparing  and 
+Conducting Exams, and other related policies such as the Policy on the Late Submission of 
+Coursework,  Policy  on  Extensions  to  Coursework  Submission,  the  Policy  on  Moderation 
+and  Double  Marking,  and  Guidance  on  Marking  Assessments  in  Undergraduate  and 
+Postgraduate Taught courses; and for ensuring that marking of assessments is sufficiently 
+resourced  to  enable  feedback  to  be  returned  within  15  working  days  of  assessment 
+submission. 5.4 Programme  Exam  Boards  are  responsible  for:  making  sure  assessments  across  a 
+programme  are  marked  fairly;  ensuring  university  and  faculty  regulations  are  adhered  to; 
+and responding to points made by External Examiners. 
+
+5.5 Programme  Leaders/Directors  are  responsible  for  ensuring  a  coherent  and  effective 
+approach  to  assessment  and  feedback  is  taken  across  a  programme  of  study.  This 
+approach will involve: -  Ensuring a range of assessment methods are used throughout a programme of study, 
+
+as appropriate to the discipline; 
+
+-  Monitoring  the  intensity  and  equity  of  assessments  across  and  between  programmes, 
+
+with due consideration to joint honours degrees; 
+
+-  Designing  and  reviewing  the  Assessment  Schedule  and  Exam  Timetable  within  a 
+
+programme and requesting amendments where there is assessment/exam bunching; programme and requesting amendments where there is assessment/exam bunching;  
+
+-  Developing  effective  moderation  and/or  double  marking  procedures,  in  line  with  the 
+
+Policy on Moderation and Double Marking;  
+
+-  Ensuring  procedures  are  in  place  for  monitoring  students’  use  of  the  Policies  and 
+Procedures  on  Extensions  to  Coursework  Submission  and  Late  Submission  of 
+Coursework, as a mechanism for identifying students who may require support; and -  Ensuring  procedures  related  to  assuring  fairness  in  assessment,  such  as  moderation 
+
+and the role of External Examiners, are communicated to students. 
+
+5.6 Year Coordinators and/or Module Coordinators are responsible for:  
+
+-  Having an overview of summative assessment activities within a programme of study to 
+avoid, where possible, a concentration of assessment deadlines, including examinations; 
+
+ 
+
+ 
+
+5 
+
+ 
+ 
+
+ 
+
+Assessment and Feedback Policy 5 
+
+ 
+ 
+
+ 
+
+Assessment and Feedback Policy 
+
+-  Making sure the details of all assessments are provided at the start of a class; 
+-  Ensuring  assessment  criteria  that  is  aligned  to  intended  learning  outcomes  and  the 
+University’s  Guidance  on  Marking  Assessments  in  Undergraduate  and  Postgraduate 
+Taught  programmes,  is  transparent  and  made  available  to  students  at  the  start  of  a 
+class; -  Providing  opportunities  for  students  to  use  feedback  prior  to  the  submission  of  any 
+
+subsequent related assessments;  
+
+-  Working  with  students  to  develop  effective  practice  in  assessment  and  feedback, 
+including:  providing  students  with  opportunities  to  develop  their  understanding  of  the 
+criteria and standards used to assess their work and supporting students to engage with 
+and use feedback; -  Obtaining feedback from students in relation to assessment and feedback for module(s) 
+for which they are responsible, and for communicating any actions on this feedback to 
+students; and 
+
+-  For undertaking effective moderation and/or double marking procedures.  
+
+5.7 Staff involved in assessing students’ work are responsible for: 
+
+-  Designing assessments that effectively facilitate and measure students’ achievement of 
+
+intended learning outcomes; intended learning outcomes; 
+
+-  Assessing students’ work according to published assessment criteria which are aligned 
+to intended learning outcomes and the University’s Guidance on Marking Assessments 
+in Undergraduate and Postgraduate Taught programmes;  
+
+-  Providing  timely,  informative  and  helpful  feedback  which  enables  students  to  further 
+
+improve their learning and performance wherever possible;  
+Informing students when, where and how feedback will be provided; - 
+-  Engaging in dialogue with students about assessment and feedback; and 
+-  Continuously reviewing their approaches to assessment and feedback to reflect effective 
+
+practice. 
+
+5.8 Students are expected to be responsible for their own learning through:  
+
+-  Understanding the requirements of individual assessments, and actively engaging with 
+
+assessment tasks by devoting appropriate time and effort; assessment tasks by devoting appropriate time and effort; 
+
+-  Developing  an  understanding  of  the  relationship  between  intended  learning  outcomes 
+
+and assessment criteria, and standards in their programme of study; 
+
+-  Ensuring their academic work is authentic and honestly produced; 
+-  Finding  out  where,  how  and  when  work  is  submitted  and  how  and  when  feedback  is 
+
+provided; -  Actively engaging, reflecting, and using provided feedback;  
+-  Understanding  the  academic  policies  and  procedures  related  to  assessment  and 
+feedback, including Personal Circumstances Procedure, Policy and Procedures for the 
+Late Submission of Coursework, Policy on  Moderation and Double  Marking, Policy on 
+Extensions to the Submission of Coursework, and Compensation and Motivational Merit; 
+-  Seeking academic support when needed, for example, if feedback needs to be clarified; -  Participating  in  the  development  of  assessment  and  feedback  practices  at  class  and 
+
+and 
+
+programme levels. 
+
+ 
+
+ 
+
+6 
+
+ 
+
+ 
+ 
+
+ 
+6.  DEFINITIONS OF TERMS 
+
+ 
+Assessment 
+
+Assessment criteria 
+ 
+ 
+Assessment bunching 
+
+Assessment schedule  
+ 
+Exam bunching 
+
+Feedback 
+
+Formative assessment   
+ 
+
+Graduate attributes 
+
+ 
+
+Assessment and Feedback Policy The process of measuring the performance of students 
+(as in examinations, assignments and other assessable 
+work)  that  enables  students  to  monitor  their  progress 
+and contributes to their academic results. 
+ 
+Specific criteria against which pieces of work are 
+assessed. An understanding of the criteria must be 
+shared by markers and students. Feedback should 
+relate to these criteria.  
+The perception of assessments within a programme of 
+study being scheduled too closely together. 
+ 
+A timeline of all cohort level assessment. Where  the  scheduling  of  two  exams  falls  within  a  23 
+hour period.  
+ 
+Information provided to students on the quality of their 
+performance  in  relation  to  assessment  criteria,  which 
+forms the basis of improved student learning.  
+ 
+This  type  of  assessment  normally  has  no  or  low 
+weighting in the final mark for a module or programme. 
+The  goal  of  formative  assessment  is  to  provide  an 
+opportunity  for  students  to  monitor  their  learning  and 
+provide  feedback  to  teachers  that  can  be  used  to 
+review their teaching. 
+ 
+Qualities,  skills,  dispositions,  and  understanding  that 
+students are expected to develop. At Strathclyde these 
+are  referred  to  as  the  4  E’s  –  engaged,  enquiring, 
+enterprising and ethically and globally aware. type  of 
+
+Ipsative feedback Intended learning outcomes  What  the  student  is  expected  to  be  able  to  do  or 
+demonstrate,  in  terms  of  particular  knowledge,  skills 
+and  understanding,  by 
+the  end  of  a  module  or 
+programme.  
+ 
+This 
+performance 
+performance on a previous assessment. 
+ 
+The  process  of  checking  that  assessment  criteria  are 
+consistently  applied  across  markers 
+in  marking 
+students’ work. 
+ 
+The  individual  components  of  a  programme,  normally 
+worth 20 or 10 credits. 
+ 
+The process of obtaining feedback from students on all 
+aspects of teaching, learning, and assessment within a feedback  compares  a  student’s 
+assessment  with 
+
+Module evaluation 
+
+Moderation 
+
+Module 
+
+current 
+
+on 
+
+a 
+
+ 
+
+ 
+
+7 
+
+ 
+ 
+
+ 
+
+Assessment and Feedback Policy module. 
+ 
+The full degree programme leading to an award. 
+ 
+Where an assessment is independently marked by two 
+markers,  but  where  the  second  marker  has  access  to 
+the marks or comments of the first marker. 
+ 
+Assessment  is  summative  when  the  grading  of  an 
+assessment contributes to the final grade for a class or 
+course.  The  aim  of  summative  assessment  is  to 
+evaluate  students’  attainment  of  the  intended  learning 
+outcomes within a unit of study. 
+ 
+ 
+Where an assessment is independently marked by two 
+markers  who  do  not  have  access  to  the  grades  or 
+comments of the other marker. 
+ 
+The  University’s  standard  working  week  is  normally 
+Monday  to  Friday,  covering  five  working  days.  Fifteen 
+working  days  would  normally  equate  to  21  calendar 
+days,  but  may  be  longer  where  the  period  includes 
+University closure days. Programme 
+
+Seen double marking 
+
+Summative assessment 
+
+ 
+Unseen double marking 
+ 
+
+Working days 
+
+ 
+
+ 
+
+ 
+
+ 
+
+8

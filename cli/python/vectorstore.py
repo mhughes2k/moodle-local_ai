@@ -1,14 +1,17 @@
 from langchain_community.embeddings import HuggingFaceInstructEmbeddings
 from langchain_community.vectorstores import FAISS
+import sys
 # from openai import OpenAI
 # from openai import OpenAIEmbeddings
 
 # Get instance of VectorStore.
+def eprint(*args, **kwargs):
+    print(*args, file=sys.stderr, **kwargs)
 def get(store_type, vectorstorelocation, cache_folder, model_name):
     try:
         if store_type == "faiss":
             #vectorstorelocation should end with a "/"
-            print("Loading vectorstore from "+vectorstorelocation)
+            eprint("Loading vectorstore from "+vectorstorelocation)
             if model_name == "ollama":
                 vectorstore.load_local(vectorstorelocation,
                                        cache_folder=cache_folder,
@@ -26,7 +29,7 @@ def get(store_type, vectorstorelocation, cache_folder, model_name):
                 )
             
     except:
-        print("Failed to load vectorstore from "+vectorstorelocation)
+        eprint("Failed to load vectorstore from "+vectorstorelocation)
         vectorstore = None
     # TODO Support other vector store types.
     if vectorstore is None:
