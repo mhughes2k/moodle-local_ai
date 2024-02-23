@@ -1,0 +1,21 @@
+# Local AI
+This local plugin implements a RAG system for Moodle.
+
+At present it hooks into the `course_module_created` and `course_module_updated` events.
+
+Using the mod information in these events it attempts to
+1. determine the content payload
+2. copies the content payload over to an ingest location
+3. triggers an ad-hoc task to load the payload into a vector Database.
+
+The ad-hoc task runs a python script `add_to_vectorstore.py` to generate a vector embedding from the payload specified by the `--documentpath` option.
+
+A JSON object can be passed in using the `--documentmetadata` argument.
+
+The `--vectorstorelocation` specifies which vector database the content is written to. 
+
+A `manager` class provides the PHP API for doing most of the interaction.
+
+This class is instantiated in the event observer, with a single parameter that governs the scope of the store.
+
+By default the `global` scope is intended to cover a whole Moodle server, but an appropriate key may be used to limit the scope, e.g. `courseX` where `X` is the unique ID of a course.

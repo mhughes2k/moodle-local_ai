@@ -72,6 +72,7 @@ class local_ai_observer {
             'mod_' . $this->mod,
             'content'
         );
+
         $ragmanager = new local_ai\local\manager("global");
         $cmmeta = [
             'coursemoduleid' => $cm->id,
@@ -81,6 +82,7 @@ class local_ai_observer {
             if ($file->get_filename() == ".") {
                 continue;
             }
+            var_dump($file);
             $fmeta = $cmmeta;
             $fmeta['filename'] = $file->get_filename();
             $fmeta['author'] = $file->get_author();

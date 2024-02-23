@@ -71,8 +71,13 @@ class manager {
      * @return void
      */
     public function add_document(stored_file $file, array $metadata, bool $rightnow = false) {
-        $filepath = $file->copy_content_to_temp('local_ai_ingest','local_ai');
-        if ($filepath === false) {
+        global $CFG;
+        $workingdir = $CFG->dataroot ."/local_ai/";
+        $ingestdir = make_writable_directory($workingdir."ingest/");
+        $ingestdir = make_unique_writable_directory($ingestdir);
+        $filepath = $ingestdir . $file->get_filename();
+        if (!$file->copy_content_to($filepath)) {
+            debugging("Failed to copy file to temp");
             return;
         }
         $params = [

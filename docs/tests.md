@@ -2,6 +2,14 @@
 `source python/bin/activate`
 This will enable the virtual environment for Python.
 
+# Enabling python scripts on server.
+Using the moodle-docker images, python and pip complain about being externally managed. 
+To work around this `mv /usr/lib/python3.11/EXTERNALL-MANAGED /usr/lib/python3.11/EXTERNALL-MANAGED.old`
+
+You *should* then be able to do a `pip install -r requirements.txt` from `local/ai/cli/python` to install the dependencies.
+
+Note: however some dependencies didn't appear to install so a `pip install textract` was necessary.
+
 # Asking for a response
 `php chat.php -m="how long is the standard submission period for assessments?"`
 This will attempt to get the AI to generate a response based on the RAG results it is provided.
