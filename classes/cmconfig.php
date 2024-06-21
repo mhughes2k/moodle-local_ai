@@ -58,8 +58,8 @@ class cmconfig extends \core\persistent {
             $now = time();
             $return->set('timecreated', $now);
             $return->set('timemodified', $now);
-            $return->set('usercreated', $now);
-            $return->set('usercreated', $now);
+//            $return->set('usercreated', $now);
+//            $return->set('usercreated', $now);
             return $return;
         }
         $existing =  self::get_record(['cmid' => $cmid]);

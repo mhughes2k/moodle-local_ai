@@ -29,7 +29,7 @@ class logger implements LoggerInterface {
     protected function write($message) {
         $ts = microtime(true);
         //%d %B %Y, %I:%M %p
-        $uts = userdate($ts, '%Y-%M-%d %I:%M:%p');
+        $uts = userdate($ts, '%Y-%m-%d %I:%M:%p');
         $f = fopen($this->logpath, 'a');
         if(flock($f, LOCK_EX | LOCK_NB)) {
 //            debugging("Writing to log file: {$this->logpath}");

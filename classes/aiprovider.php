@@ -211,7 +211,7 @@ class AIProvider extends persistent implements LoggerAwareInterface  {
 
         // Now apply any coursemodule settings.
 
-        if($cmconfig = $DB->get_record('local_ai_cmconfig', ['cmid' => $cm->id])) {
+        if(!is_null($cm) && $cmconfig = $DB->get_record('local_ai_cmconfig', ['cmid' => $cm->id])) {
             $skip = ['id', 'cmid'];
             foreach ($cmconfig as $setting => $value) {
                 if (in_array($value, $skip)) {
@@ -341,8 +341,8 @@ class AIProvider extends persistent implements LoggerAwareInterface  {
 //        echo "<h1>Initial context</h1><pre>";
 //        var_dump($cmconfig);
 //        echo "</pre>";
-        $sysprompt = $cmconfig->systemprompt;
-        $sysprompt .= !empty($cmconfig->aicontext) ? "\n{$cmconfig->aicontext}": "";
+        $sysprompt = $cmconfig['systemprompt'];
+        $sysprompt .= !empty($cmconfig['aicontext']) ? "\n{$cmconfig['aicontext']}": "";
         $messages[] = $this->create_message(
             "system",
             $sysprompt
