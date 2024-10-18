@@ -63,6 +63,7 @@ $string['aiproviderfeatures'] = '';
 $string['aiproviderfeatures_desc'] = 'This plugin needs the following AI features';
 
 // providers
+$string['providers'] = 'Providers';
 $string['newprovider'] = '{$a} Based Provider';
 
 // Provider instance form
@@ -132,7 +133,7 @@ $string['actions'] = 'Actions';
 $string['actions_help'] = 'Actions';
 $string['contentconstraints'] = 'Content Constraints';
 $string['savechanges'] = 'Save changes';
-$string['aisettings'] = 'AI Provider Settings';
+$string['aisettings'] = 'Settings';
 
 $string['systemprompt'] = 'System Prompt';
 $string['systemprompt_help'] = 'System Prompt';
