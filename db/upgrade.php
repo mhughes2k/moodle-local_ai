@@ -72,6 +72,13 @@ function xmldb_local_ai_upgrade($oldversion) {
         // Ai savepoint reached.
         upgrade_plugin_savepoint(true, 2024051800.1, 'local', 'ai');
     }
+    if ($oldversion < 2024052000.1) {
+        // Define table aiprovider to be created.
+        $table = new xmldb_table('local_ai_aiprovider');
+        $table->add_field('aimaxcontext', XMLDB_TYPE_INTEGER, '10', null, XMLDB_NOTNULL, null, '128000', 'allowchat');
+        // Ai savepoint reached.
+        upgrade_plugin_savepoint(true, 2024052000.1, 'local', 'ai');
+    }
 
     return true;
 }

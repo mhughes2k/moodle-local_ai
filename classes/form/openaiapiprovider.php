@@ -70,13 +70,13 @@ class openaiapiprovider extends \core\form\persistent{
 
         $mform->addElement('advcheckbox', 'allowask', get_string('allowask', 'local_ai'));
         $mform->addHelpButton('allowask', 'allowask', 'local_ai');
-
+/*
         $mform->addElement('advcheckbox', 'allowtranslate', get_string('allowtranslate', 'local_ai'));
         $mform->addHelpButton('allowanswer', 'allowanswer', 'local_ai');
 
         $mform->addElement('advcheckbox', 'allowtranslate', get_string('allowtranslate', 'local_ai'));
         $mform->addHelpButton('allowanswer', 'allowtranslate', 'local_ai');
-
+*/
         $mform->addElement('header','contentconstraints', get_string('contentconstraints', 'local_ai'));
 
         $displaylist = [
@@ -85,7 +85,7 @@ class openaiapiprovider extends \core\form\persistent{
         ];
         $displaylist =
             $displaylist +
-            \core_course_category::make_categories_list('moodle/ai:selectcategory')
+            \core_course_category::make_categories_list('local/ai:selectcategory')
         ;
         
         $mform->addElement('autocomplete', 'categoryid', get_string('scopecoursecategory','local_ai'), $displaylist);

@@ -7,6 +7,8 @@ use core_course_category;
 
 class AIProvider extends persistent implements LoggerAwareInterface  {
     use LoggerAwareTrait;
+
+    const CONTEXT_128K = 120000; // in K.
 // Ultimately this would extend a persistent.
 
     const CONTEXT_ALL_MY_COURSES = -1;
@@ -59,6 +61,10 @@ class AIProvider extends persistent implements LoggerAwareInterface  {
             'onlyenrolledcourses' => [
                 'type' => PARAM_BOOL
             ],
+            'aimaxcontext' => [
+                'type' => PARAM_INT,
+                'default' => self::CONTEXT_128K
+            ]
         ];
     }
 
@@ -116,7 +122,7 @@ class AIProvider extends persistent implements LoggerAwareInterface  {
         $current = get_config('ai', $key);
         $new = $current + $change;
         $this->logger->info("Incrementing prompt token usage from {$current} to {$new}");
-        set_config($key, $new, 'ai');
+        // set_config($key, $new, 'ai');
         return $new;
     }
     public function increment_completion_tokens($change) {
@@ -130,7 +136,7 @@ class AIProvider extends persistent implements LoggerAwareInterface  {
         $current = get_config('ai', $key);
         $new = $current + $change;
         $this->logger->info("Incrementing completion token usage from {$current} to {$new}");
-        set_config($key, $new, 'ai');
+//        set_config($key, $new, 'ai');
         return $new;
     }
     public function increment_total_tokens($change) {
@@ -144,7 +150,7 @@ class AIProvider extends persistent implements LoggerAwareInterface  {
         $current = get_config('ai', $key);
         $new = $current + $change;
         $this->logger->info("Incrementing total token usage from {$current} to {$new}");
-        set_config($key, $new, 'ai');
+//        set_config($key, $new, 'ai');
         return $new;
     }
 

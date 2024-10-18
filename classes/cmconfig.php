@@ -49,6 +49,10 @@ class cmconfig extends \core\persistent {
                 'type' => PARAM_BOOL,
                 'default' => true
             ],
+            'allowindex' => [
+                'type' => PARAM_BOOL,
+                'default' => true
+            ]
         ];
     }
 

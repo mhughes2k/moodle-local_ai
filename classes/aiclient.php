@@ -1,7 +1,7 @@
 <?php
 namespace local_ai;
 require_once($CFG->libdir.'/filelib.php');
-use local_ai\AiException;
+
 /**
  * Base client for AI providers that uses simple http request.
  */
@@ -33,6 +33,47 @@ class AIClient extends \curl implements LoggerAwareInterface {
     }
 
     /**
+     * Takes the array of messages and truncates them to fit within the AI Max Context.
+     * @param $messages
+     * @return array
+     */
+    protected function truncate_to_maxcontext($messages) {
+//print_r($messages);
+        $jsontext = json_encode($messages);
+        $contextlength = 128000; // $this->provider->get('maxaicontext');// TODO implement field.
+        $contentlength = strlen($jsontext);
+        if ($contentlength > $contextlength) {
+            $this->logger->warning("Context was too long for LLM {$contentlength} against maximum {$contextlength}.");
+            // We need to truncate.
+            $newmessages = [];
+            // we always keep the 1st message.
+            $newmessages[] = array_shift($messages);
+            // Reverse the array so we do the most recent ones.
+            $messages = array_reverse($messages);
+            foreach($messages as $message) {
+                $newmessages[] = $message;  // Add message to list of new messages.
+                $jsontext = json_encode($newmessages);  // Have we broken context length?
+                $contentlength = strlen($jsontext);
+                if ($contentlength > $contextlength) {
+                    $this->logger->warning("Content length exceeded {$contentlength} against maximum {$contextlength}");
+                    array_pop($newmessages);    // Yes, take it off the last one.
+                    // We now have an array of all the messages, but the system message is first, and the subsequent
+                    // ones are in reverse order.
+                    $newmessages[] = array_shift($newmessages); // Remove 0th message, and add to the end.
+                    // Everything should now be in reverse order.
+
+                    $newmessages = array_reverse($newmessages);
+                    $jsontext = json_encode($newmessages);
+                    $contentlength = strlen($jsontext);
+                    $this->logger->warning("Content length now {$contentlength} against maximum {$contextlength}");
+
+                    return $newmessages;
+                }
+            }
+        }
+        return $messages;
+    }
+    /**
      * @param $messages
      * @return array String array of each line of the AI's Response.
      * @throws \coding_exception
@@ -40,7 +81,7 @@ class AIClient extends \curl implements LoggerAwareInterface {
     public function chat($messages) {
         $params = [
             "model" => $this->provider->get('completionmodel'),
-            "messages" => $messages
+            "messages" => $messages // $this->truncate_to_maxcontext($messages)
         ];
         $params = json_encode($params);
         $rawresult = $this->post($this->get_chat_completions_url(), $params);
@@ -70,6 +111,41 @@ class AIClient extends \curl implements LoggerAwareInterface {
         }
         //$this->logger->info($result);
         return $result;
+    }
+
+    /**
+     * Clean up messages.
+     * This removes context items, leaving just the AI and user messages.
+     * It should also ensure that the context remains below the AI contexlimit
+     * @param $messages
+     * @return array
+     */
+    public function truncate_messages($messages) {
+        $contextlength = 128000; // $this->provider->get('maxaicontext');// TODO implement field.
+        // Strip context items back out so we only have the conversation parts.
+        $messages = array_filter($messages, function ($var) {
+            $retain =  isset($var->iscontext) ? !$var->iscontext : true;
+            if (!$retain) {
+                $this->logger->info("Removing context item: {content}", (array)$var);
+            }
+            return $retain;
+        });
+
+        do {
+            // Iterate over all $messages and determine the total length of the content.
+            $totalcontentsize = array_product(array_map(function($var) {
+                return strlen($var->content);
+            },$messages));
+            $this->logger->info("Content size {size} / {max}", ['size' => $totalcontentsize, 'max' => $contextlength]);
+            if ($totalcontentsize < $contextlength) {
+                $this->logger->info('Content size is now below context');
+                break;
+            }
+            $discard = array_shift($messages); // Pop off the 1st message.
+            $this->logger->info("Discarding {content}", (array)$discard);
+        } while ($totalcontentsize >= $contextlength);
+
+        return $messages;
     }
 
     /**

@@ -25,9 +25,9 @@ $incontextid = optional_param('contextid', null, PARAM_RAW);
 $context = !empty($incontextid) ? \context::instance_by_id($incontextid) : null;
 
 if (empty($context)) {
-    $strheading = get_string('pluginname', 'ai');
+    $strheading = get_string('pluginname', 'local_ai');
 } else {
-    $strheading = get_string('aiprovidersin', 'ai', $context->get_context_name());
+    $strheading = get_string('aiprovidersin', 'local_ai', $context->get_context_name());
 }
 $PAGE->set_heading($strheading);
 $PAGE->set_title($strheading);

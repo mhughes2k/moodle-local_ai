@@ -23,7 +23,13 @@ class api {
         return array_values(aiprovider::get_records());
     }
     public static function get_provider(int $id): AIProvider|false  {
-        return aiprovider::get_record(['id' => $id]);
+        // Handle weird case where settings are trying access this before the table exists.
+        try {
+            $provider = aiprovider::get_record(['id' => $id]);
+        } catch (\Exception $e) {
+            $provider = false;
+        }
+        return $provider;
     }
 
     /**
@@ -48,7 +54,7 @@ class api {
                 $filters[$req] = $reqparam;
             }
         }
-//        debugging(print_r($filters,1), DEBUG_DEVELOPER);
+        debugging(print_r($filters,1), DEBUG_DEVELOPER);
         $providers = aiprovider::get_records($filters);
         return array_values($providers);
     }

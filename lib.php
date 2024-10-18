@@ -39,6 +39,7 @@ function local_ai_extend_navigation_course($navigation, $course, $context) {
 
 function local_ai_coursemodule_edit_post_actions($moduleinfo, $course) {
     global $DB;
+    //debugging('local_ai_coursemodule_edit_post_actions', DEBUG_DEVELOPER);
     $skip = ['id', 'cmid'];
     // Ideally we need a lock.
     $tx = $DB->start_delegated_transaction();
@@ -49,12 +50,15 @@ function local_ai_coursemodule_edit_post_actions($moduleinfo, $course) {
             continue;
         }
         if (isset($moduleinfo->$property)) {
+            debugging("Setting {$property} to {$moduleinfo->$property}", DEBUG_DEVELOPER);
             $cmconfig->set($property, $moduleinfo->$property);
         }
 
     }
     $cmconfig->save();
     $tx->allow_commit();
+    var_dump($moduleinfo);
+    //exit("local_ai_coursemodule_edit_post_actions");
     return $moduleinfo;
 }
 
@@ -78,10 +82,15 @@ function local_ai_get_cmconfig($cmid) {
 function local_ai_coursemodule_standard_elements($modform, $mform) {
     global $DB;
     $cm = $modform->get_coursemodule();
-    $cmconfig = local_ai_get_cmconfig($cm->id);
+    if (is_null($cm)) {
+        $cmconfig = local_ai_get_cmconfig(null);
+    } else {
+        $cmconfig = local_ai_get_cmconfig($cm->id);
+    }
+
     // Adding the rest of mod_xaichat settings, spreading all them into this fieldset
     // ... or adding more fieldsets ('header' elements) if needed for better logic.
-    $mform->addElement('header', 'aiprovider', get_string('aiprovider', 'ai'));
+    $mform->addElement('header', 'aiprovider', get_string('aiprovider', 'local_ai'));
 
     $mform->addElement('static', "aiproviderfeatures",
         get_string("aiproviderfeatures", 'local_ai'),
@@ -97,7 +106,7 @@ function local_ai_coursemodule_standard_elements($modform, $mform) {
     );
     $optproviders = [];
 
-    $optproviders['-1'] = get_string('disable', 'ai');
+    $optproviders['-1'] = get_string('disable', 'local_ai');
     foreach($providers as $provider) {
         $optproviders[$provider->get('id')] = $provider->get('name');
     }

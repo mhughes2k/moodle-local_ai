@@ -78,7 +78,7 @@ class index_page implements \renderable, \templatable {
 
             $links = "";
             // Action links.
-            $editurl = new \moodle_url($CFG->wwwroot . '/ai/index.php',
+            $editurl = new \moodle_url($CFG->wwwroot . '/local/ai/index.php',
                 [
                     'action' => api::ACTION_EDIT_PROVIDER,
                     'pid' => $provider->get('id')
@@ -113,7 +113,7 @@ class index_page implements \renderable, \templatable {
                     'pid' => null
                 ]
             );
-            $buttontext = get_string('newprovider', 'ai', $name);
+            $buttontext = get_string('newprovider', 'local_ai', $name);
             $buttons[] = [$addurl, $buttontext];
         }
         return $buttons;
